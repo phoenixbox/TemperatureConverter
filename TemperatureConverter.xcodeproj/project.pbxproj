@@ -21,6 +21,7 @@
 		CB9DCF39185E80AE002B2A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9DCF1B185E80AE002B2A89 /* UIKit.framework */; };
 		CB9DCF41185E80AE002B2A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9DCF3F185E80AE002B2A89 /* InfoPlist.strings */; };
 		CB9DCF43185E80AE002B2A89 /* TemperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DCF42185E80AE002B2A89 /* TemperatureConverterTests.m */; };
+		CB9DCF4D185E82B2002B2A89 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DCF4C185E82B2002B2A89 /* ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CB9DCF3E185E80AE002B2A89 /* TemperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		CB9DCF40185E80AE002B2A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB9DCF42185E80AE002B2A89 /* TemperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterTests.m; sourceTree = "<group>"; };
+		CB9DCF4C185E82B2002B2A89 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				CB9DCF42185E80AE002B2A89 /* TemperatureConverterTests.m */,
+				CB9DCF4C185E82B2002B2A89 /* ViewControllerTests.m */,
 				CB9DCF3D185E80AE002B2A89 /* Supporting Files */,
 			);
 			path = TemperatureConverterTests;
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9DCF4D185E82B2002B2A89 /* ViewControllerTests.m in Sources */,
 				CB9DCF43185E80AE002B2A89 /* TemperatureConverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
